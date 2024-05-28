@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+
+body{
+  margin: 0;
+  padding: 0;
+  height: auto;
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+/* main{
+  background-image: url('images/télécharger\ \(38\).jpeg');
+  background-size: cover;
+ background-attachment:scroll;
+background-repeat: no-repeat;
+} */
+header img {
+  position: relative;
+
+}
+nav{
+  margin-top: 0;
+}
+ 
+.head1{
+  height: 70PX;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15PX 30PX 15PX 30PX;
+  background-color: white;
+}
+nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: blanchedalmond;
+  margin-top: 0PX;
+  margin-bottom: 0PX;
+  height: 50PX;
+}
+a{
+  text-decoration: none;
+  color: black;
+  margin-right: 30PX;
+}
+li{
+  list-style: none;
+  margin-top: 15PX;
+
+}
+.ma_section{
+  display: flex;
+  flex-direction: row;
+}
+.ma_section p {
+  margin:0PX ;
+
+}
+.ma_section a:hover {
+  background-color: rgb(252, 225, 232);
+  border-radius: 60PX;
+
+}
+.ma_section a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0PX;
+
+}
+
+main .section-one{
+  background-image: url('images/background.avif');
+  background-position: left;
+  background-size: contain;
+  background-attachment: scroll;
+  background-repeat:no-repeat ;
+  width: 100%;
+ height: 100vh;
+}
+.icone{
+  width: 25PX;
+  height: 25PX;
+}
+button{
+  border: solid white ;
+  background-color:  rgb(253, 186, 255) ;
+  border-radius: 30PX;
+  height: 50PX;
+  width: 150PX;
+  
+}
+
+
+[type=search]{
+  outline: none;
+  border-radius: 10PX;
+  height: 25PX;
+  width: 30%;
+  border: solid  rgb(253, 186, 255) 1PX ;
+  margin-top: 20PX;
+}
+
+
+/* main */
+
+section{
+  margin-top: 30PX;
+}
+.affichage_mode{
+  background-color: rgb(219, 216, 216);
+  border-radius: 20PX;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000PX;
+  height: 470PX;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.affichage_mode img{
+  width: 336PX;
+  height: 470PX;
+}
+.affichage_mode img:first-child{
+  width: 336PX;
+  height: 470PX;
+  border-radius: 20PX;
+}
+.word{
+  display: flex;
+  flex-direction: column;
+  margin: 15PX;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  height: auto;
+  background-color: rgb(34, 42, 75);
+  display: flex;
+  margin-bottom: 0PX;
+  margin-top: 30PX;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: blanchedalmond;
+  padding: 25PX;
+}
+
+footer a{
+  color: blanchedalmond;
+
+
+}
+hr{
+  color: blanchedalmond;
+  
+}
+
+footer h4{
+  display: flex;
+  margin-bottom: 0;
+}
+
+footer h1{
+  display: flex;
+
+}
+
+footer div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+footer .robe h4{
+  margin-left: 35PX;
+
+}
