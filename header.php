@@ -9,11 +9,10 @@
 <body>
     <header>
             <div class="head1">
-
                 <input class="search"  type="search">
 
                 <div class="logo">
-                    logo + img
+                    <img src="images/Fleury.png" alt="" sizes=" width = " srcset="">
                 </div>
 
                 <div class="ma_section">
@@ -28,7 +27,7 @@
                 <ul>
                     <li><a href="acceuil.php">Acceuil</a></li>
                     <li><a href="catalogue.php">Catalogue</a></li>
-                    <li><a href="nosservises.php">Nos servises</a></li>
+                    <li><a href="nosservices.php">Nos servises</a></li>
                     <li><a href="monpanier.php">Mon panier</a></li>
                     <li><a href="envogue.php">En vogue</a></li>
                     <li><a href="prendrecontact.php">Prendre contact</a></li>
